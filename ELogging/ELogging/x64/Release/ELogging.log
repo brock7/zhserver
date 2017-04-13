@@ -1,0 +1,55 @@
+﻿生成启动时间为 2017/4/11 16:22:07。
+     1>项目“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\ELogging\ELogging\ELogging.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\ELogging.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\CommonCPlus\CommonCPlus /I..\..\ThirdFunc\tinyxml /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ELOGGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\CommonCPlus\CommonCPlus /I..\..\ThirdFunc\tinyxml /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ELOGGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ELogging.cpp Logging.cpp SSActive.cpp Timer.cpp
+         ELogging.cpp
+     1>ELogging.cpp(12): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : 参见“vsnprintf”的声明
+         Logging.cpp
+     1>d:\baidunetdiskdownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\baidunetdiskdownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Logging.cpp(276): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>Logging.cpp(328): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>Logging.cpp(329): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : 参见“open”的声明
+     1>Logging.cpp(337): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>Logging.cpp(338): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : 参见“open”的声明
+     1>Logging.cpp(356): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : 参见“fdopen”的声明
+     1>Logging.cpp(367): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         SSActive.cpp
+     1>d:\baidunetdiskdownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\baidunetdiskdownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>SSActive.cpp(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         Timer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\x64\Release\ELogging.dll" /INCREMENTAL:NO /NOLOGO "..\..\Lib\x64\Release\libboost_thread-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_atomic-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_chrono-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_system-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_date_time-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_filesystem-vc100-mt-1_55.lib" ..\..\Lib\x64\Release\tinyxml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\Bin\x64\Release\ELogging.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Bin\x64\Release\ELogging.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\ELogging.obj
+         x64\Release\Logging.obj
+         x64\Release\SSActive.obj
+         x64\Release\Timer.obj
+            正在创建库 ..\..\Bin\x64\Release\ELogging.lib 和对象 ..\..\Bin\x64\Release\ELogging.exp
+         正在生成代码
+         已完成代码的生成
+     1>tinyxml.lib(tinystr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinystr.obj)”或在“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxml.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxml.obj)”或在“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxmlerror.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxmlerror.obj)”或在“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxmlparser.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxmlparser.obj)”或在“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ELogging.vcxproj -> D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\ELogging\ELogging\..\..\Bin\x64\Release\ELogging.dll
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\ELogging.unsuccessfulbuild”。
+         正在对“x64\Release\ELogging.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\BaiduNetdiskDownload\最后一战\[moba手游]最后一战\[moba手游]最后一战\Server\ELogging\ELogging\ELogging.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.07

@@ -1,0 +1,15 @@
+*.lib
+*.obj
+*.pch
+*.pdb
+*.sdf
+*.exe
+*.dll
+*.tlog
+*.db
+*.opensdf
+*.suo
+*.msi
+*.zip
+*.rar
+*.vs
